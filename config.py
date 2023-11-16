@@ -52,7 +52,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>🙋🏻‍♂️ Hai  {first}</b>\n\n<b>Tetap Stay dan jangan Unsubscribe yah agar anda bisa terus akses bot kami\n\nJika bot mati / bermasalah ataw anda ingin membuat bot seperti ini, Hub @teknisi69_bot. </b>",
+    "<b>🙋🏻‍♂️ 𝙃𝙖𝙞  {first}</b>\n\n<b>𝙐𝙣𝙩𝙪𝙠 𝙢𝙚𝙣𝙙𝙖𝙥𝙖𝙩𝙠𝙖𝙣 𝙜𝙧𝙖𝙩𝙞𝙨 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙖𝙣𝙙𝙖 𝙟𝙤𝙞𝙣 𝙙𝙪𝙡𝙪 𝙙𝙞 𝙜𝙘/𝙘𝙝 𝙙𝙞 𝙗𝙖𝙬𝙖𝙝 𝙞𝙣𝙞.\n𝙎𝙚𝙩𝙚𝙡𝙖𝙝 𝙟𝙤𝙞𝙣 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙩𝙚𝙠𝙖𝙣 𝙘𝙤𝙗𝙖 𝙡𝙖𝙜𝙞, 𝙨𝙚𝙘𝙖𝙧𝙖 𝙤𝙩𝙤𝙢𝙖𝙩𝙞𝙨 𝙖𝙠𝙖𝙣 𝙙𝙞 𝙠𝙞𝙧𝙞𝙢 𝙫𝙞𝙙𝙚𝙤 𝙩𝙚𝙧𝙗𝙖𝙧𝙪.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -62,7 +62,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>👩‍💻 Hai {first}</b>\n\n<b>Untuk mendapatkan asupan gratis anda harus bergabung terlebih dahulu pada group / channel kami,  kemudian klik Mulai lagi\n\nJika bot mati/bermasalah ataw ingin membuat bot seperti ini, hub @teknisi69_bot. </b>",
+    "<b>👩‍💻 𝙃𝙖𝙞 {first}</b>\n\n<b>𝙐𝙣𝙩𝙪𝙠 𝙢𝙚𝙣𝙙𝙖𝙥𝙖𝙩𝙠𝙖𝙣 𝙜𝙧𝙖𝙩𝙞𝙨 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙖𝙣𝙙𝙖 𝙟𝙤𝙞𝙣 𝙙𝙪𝙡𝙪 𝙙𝙞 𝙜𝙘/𝙘𝙝 𝙙𝙞 𝙗𝙖𝙬𝙖𝙝 𝙞𝙣𝙞.\n𝙎𝙚𝙩𝙚𝙡𝙖𝙝 𝙟𝙤𝙞𝙣 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙩𝙚𝙠𝙖𝙣 𝙘𝙤𝙗𝙖 𝙡𝙖𝙜𝙞, 𝙨𝙚𝙘𝙖𝙧𝙖 𝙤𝙩𝙤𝙢𝙖𝙩𝙞𝙨 𝙖𝙠𝙖𝙣 𝙙𝙞 𝙠𝙞𝙧𝙞𝙢 𝙫𝙞𝙙𝙚𝙤 𝙩𝙚𝙧𝙗𝙖𝙧𝙪. </b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
